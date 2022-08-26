@@ -1,0 +1,19 @@
+.contacto{
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: repeat(1,200px);
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 50px;
+  
+}
+
+.text{
+    font-family: 'Varela', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}

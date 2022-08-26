@@ -1,0 +1,51 @@
+.work{
+    font-family: 'Varela', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.work1{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.apps{
+    display: grid;
+    width: 30%;
+    grid-template-columns: repeat(2,700px);
+    grid-template-rows: repeat(2,450px);
+    gap: 10px 15px;
+    padding-left: 20px;
+}
+
+.app1:hover{
+    filter: blur(3px);
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.number{
+    border-radius: 50%;
+    background-color:rgb(255, 110, 127);
+    padding-right: 10px;
+    font-family: monospace;
+}
+.number:hover{
+    background-color:rgb(95, 139, 172);
+}
+
+.abc{
+    font-family: sans-serif;
+}
+
+.img{
+    padding-left: 15px;
+}
+.img:hover{
+    border-radius: 50%;
+    background-color:rgb(119, 202, 220);
+}

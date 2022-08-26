@@ -1,0 +1,43 @@
+body{
+    margin: 0px; 
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background: linear-gradient(to right,rgb(255, 110, 127), rgb(191, 233, 255));
+   
+}
+.in{
+    border: 200px;
+    border-radius: 50%;
+    background-color:rgb(255, 110, 127);
+}
+.in:hover{
+    background-color: #8ccee0;
+}
+.git{
+    border: 200px;
+    border-radius: 50%;
+    background-color: rgb(250, 150, 162); 
+}
+.git:hover{
+    background-color:#8ccee0;
+}
+
+.navbox{
+    padding-top: 10px;
+}
+
+.nav{
+   text-decoration: none;
+   font-family: 'Varela', sans-serif;
+   font-size: large;
+   color: #152917;
+}
+
+.nav:hover{
+    border-radius: 50%;
+    background-color: #8ccee0;
+}
+
